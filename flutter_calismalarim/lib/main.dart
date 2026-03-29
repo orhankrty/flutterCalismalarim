@@ -49,16 +49,48 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
-            "Vize Sınavları",
-            style: TextStyle(
-              color: Colors.blue,
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+          Center(
+            child: Text(
+              "Sınav Çalışmaları",
+              style: TextStyle(
+                color: Colors.blueAccent,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ],
       ),
+
+
+      // body: Row(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: [
+      //     Text(
+      //       "Vize Çalışmaları",
+      //       style: TextStyle(
+      //         color: Colors.blue,
+      //         fontSize: 20,
+      //         fontWeight: FontWeight.bold,
+      //       ),
+      //     ),
+      //   ],
+      // ),
+
+
+      // body: Row(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: [
+      //     Text(
+      //       "Vize Sınavları",
+      //       style: TextStyle(
+      //         color: Colors.blue,
+      //         fontSize: 20,
+      //         fontWeight: FontWeight.bold,
+      //       ),
+      //     ),
+      //   ],
+      // ),
 
 
       // body: Column(
