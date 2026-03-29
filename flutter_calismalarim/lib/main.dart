@@ -49,16 +49,33 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(
-            "Samsun Üniversitesi",
-            style: TextStyle(
-              color: Colors.red,
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
+          Center(
+            child: Text(
+              "Ön-Yüz Yazılım Geliştirme",
+              style: TextStyle(
+                color: Colors.amber,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ],
       ),
+
+
+      // body: Column(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: [
+      //     Text(
+      //       "Samsun Üniversitesi",
+      //       style: TextStyle(
+      //         color: Colors.red,
+      //         fontSize: 20,
+      //         fontWeight: FontWeight.bold,
+      //       ),
+      //     ),
+      //   ],
+      // ),
       
 
 
