@@ -46,17 +46,20 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Flexible(
-        fit: FlexFit.tight,
-        flex: 1,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text("Orhan Kırtay"),
-            Text("Orhan Kırtay"),
-          ],
-        ),
-      ),
+      
+
+
+      // body: Flexible(
+      //   fit: FlexFit.tight,
+      //   flex: 1,
+      //   child: Column(
+      //     mainAxisAlignment: MainAxisAlignment.center,
+      //     children: [
+      //       Text("Orhan Kırtay"),
+      //       Text("Orhan Kırtay"),
+      //     ],
+      //   ),
+      // ),
 
 
       // body: Row(
