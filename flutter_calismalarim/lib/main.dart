@@ -46,21 +46,36 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Column(
+      body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Center(
-            child: Text(
-              "Ön-Yüz Yazılım Geliştirme",
-              style: TextStyle(
-                color: Colors.amber,
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
+          Text(
+            "Vize Sınavları",
+            style: TextStyle(
+              color: Colors.blue,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
             ),
           ),
         ],
       ),
+
+
+      // body: Column(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   children: [
+      //     Center(
+      //       child: Text(
+      //         "Ön-Yüz Yazılım Geliştirme",
+      //         style: TextStyle(
+      //           color: Colors.amber,
+      //           fontSize: 20,
+      //           fontWeight: FontWeight.bold,
+      //         ),
+      //       ),
+      //     ),
+      //   ],
+      // ),
 
 
       // body: Column(
